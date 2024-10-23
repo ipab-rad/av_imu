@@ -2,6 +2,17 @@
 Changelog for package av_imu_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add rear imu to launch
+  - Append mount location to imu topics namespaces
+  - /sensor/imu/front/*
+  - /sensor/imu/rear/*
+  - Rename av_gx5_15.yaml to gx5_15_front.yaml
+  - Add av_gx5_15_rear.yaml
+
+* Contributors: Hector Cruz (@hect95)
+
 1.2.1 (2024-06-06)
 ------------------
 * Remove pinned IMU driver version no longer available from Dockerfile
