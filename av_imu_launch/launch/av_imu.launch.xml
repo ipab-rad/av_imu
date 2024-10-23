@@ -1,8 +1,17 @@
 <launch>
   <group>
     <push-ros-namespace namespace="/sensor/imu"/>
-    <node pkg="microstrain_inertial_driver" exec="microstrain_inertial_driver_node" name="microstrain_inertial_driver_node" namespace="">
-      <param from="$(find-pkg-share av_imu_launch)/config/av_gx5_15.yml"/>
+    <!-- Front -->
+    <node pkg="microstrain_inertial_driver" exec="microstrain_inertial_driver_node" name="microstrain_inertial_driver_node" namespace="front">
+      <param from="$(find-pkg-share av_imu_launch)/config/gx5_15_front.yaml"/>
+      <param name="debug" value="false"/>
+      <remap from="imu/data" to="data"/>
+      <remap from="imu/mag" to="mag"/>
+    </node>
+
+    <!-- Rear -->
+    <node pkg="microstrain_inertial_driver" exec="microstrain_inertial_driver_node" name="microstrain_inertial_driver_node" namespace="rear">
+      <param from="$(find-pkg-share av_imu_launch)/config/gx5_15_rear.yaml"/>
       <param name="debug" value="false"/>
       <remap from="imu/data" to="data"/>
       <remap from="imu/mag" to="mag"/>
