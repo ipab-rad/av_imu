@@ -2,8 +2,8 @@
 Changelog for package av_imu_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.0 (2024-10-23)
+------------------
 * Add rear imu to launch
   - Append mount location to imu topics namespaces
   - /sensor/imu/front/*
