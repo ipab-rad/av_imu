@@ -9,7 +9,7 @@ Forthcoming
   - /sensor/imu/front/*
   - /sensor/imu/rear/*
   - Rename av_gx5_15.yaml to gx5_15_front.yaml
-  - Add av_gx5_15_rear.yaml
+  - Add gx5_15_rear.yaml
 
 * Contributors: Hector Cruz (@hect95)
 
