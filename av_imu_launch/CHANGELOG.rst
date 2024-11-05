@@ -2,6 +2,13 @@
 Changelog for package av_imu_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Use new IMU's frame id
+  - Based on the updated car description URDF (2.0.0)
+
+* Contributors: Hector Cruz
+
 2.0.0 (2024-10-23)
 ------------------
 * Add rear imu to launch
