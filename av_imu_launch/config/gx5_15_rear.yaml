@@ -15,7 +15,7 @@
     use_enu_frame : True
 
     # Configure some frame IDs
-    frame_id : 'imu_rear_mount'  # Frame ID of all of the filter messages. Represents the location of the CV7-INS in the tf tree
+    frame_id : 'imu_rear_sensor'  # Frame ID of all of the filter messages. Represents the location of the CV7-INS in the tf tree
 
     # Disable the transform from the mount to frame id transform as it will be handled in the launch file
     publish_mount_to_frame_id_transform : False
