@@ -2,8 +2,8 @@
 Changelog for package av_imu_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.1.0 (2024-11-11)
+------------------
 * Use new IMU's frame id
   - Based on the updated car description URDF (2.0.0)
 
